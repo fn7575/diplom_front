@@ -1,0 +1,82 @@
+.header{
+    position: sticky;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo{
+    box-sizing: border-box;
+    margin-left: 20px;
+    height: 80px;
+}
+
+.log_button{
+    height: 40px;
+    width: 100px;
+    color: orange;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: 1px solid #104ab7;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: skyblue;
+    width: 190px;
+    top:40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-bottom: 10px;
+    border: 1px solid #07379f;
+    right: 15px;
+}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+.dropdown:hover .log_button {background-color: #07379f;}
+
+.log_input_label{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    width: 180px;
+}
+
+.log_input{
+    display: inline-block;
+    width: 160px;
+}
+
+.log_button_confirm{
+    height: 20px;
+    width: 50px;
+    margin-right: 40px;
+    color: orange;
+    background-color: #07379f;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid;
+    margin-left: 30px;
+    margin-top: 10px;
+}

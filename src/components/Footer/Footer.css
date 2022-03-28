@@ -1,0 +1,50 @@
+.FooterWrapper{
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10rem;
+    background: #282c34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center ;*/
+}
+.FooterInnerUp {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    margin: 0.5em auto;
+    border: 1px inset white;
+}
+
+
+.SiteName{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.Years{
+    color: #A4A9B7;
+    font-size: 12px;
+}
+.FooterInnerUpLeft{
+
+}
+.FooterInnerUpRight{
+
+}
+.FooterInnerDown{
+    text-align: left;
+    color: #A4A9B7;
+    font-size: 14px;
+
+}

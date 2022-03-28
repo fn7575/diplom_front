@@ -1,0 +1,13 @@
+.MainWrapper{
+    margin: 1rem auto 0;
+    width: 60% ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.AdminButton{
+    padding: 5px;
+    background: white;
+    border: solid 3px #282c34;
+
+}
